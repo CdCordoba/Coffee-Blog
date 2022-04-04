@@ -95,7 +95,7 @@ img {
 }
 
 .header {
-    height: 60rem;
+    height: 50rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -107,10 +107,14 @@ img {
     margin-top: 5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 765px) {
     .header__text {
         margin-top: 15rem;
     }
+    .header{
+        height: 40rem;
+    }
+
 }
 
 .bar {
