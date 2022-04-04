@@ -144,7 +144,7 @@ img {
 @media (min-width: 768px) {
     .nav {
         display: flex;
-        column-gap: 2rem;
+        justify-content: space-around;
     }
 }
 
@@ -153,6 +153,7 @@ img {
     text-align: center;
     font-size: 1.8rem;
     color: var(--white);
+    margin-left: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -245,7 +246,7 @@ img {
 
 /** About Us **/
 
-@media (min-width: 1355px) {
+@media (min-width: 1200px) {
     .about-us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
