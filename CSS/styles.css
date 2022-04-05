@@ -254,6 +254,10 @@ img {
     }
 }
 
+.about-us__img {
+    justify-content: center;
+    margin-left: 1rem;
+}
 
 /** Courses **/
 
